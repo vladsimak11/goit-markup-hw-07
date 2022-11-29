@@ -18,20 +18,17 @@
   background-color: #2f303a;
 
   text-align: center;
-}
-
-.hero {
 
   &__title {
-  margin-bottom: 30px;
-
-  color: $white-color;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+    margin-bottom: 30px;
+  
+    color: $white-color;
+  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
 
 }

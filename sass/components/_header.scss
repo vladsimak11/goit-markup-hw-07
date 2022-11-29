@@ -2,12 +2,18 @@
 
 .header {
   border-bottom: 1px solid #ececec;
+
+  &-blocks {
+    display: flex;
+    align-items: center;
+  }
+
+  &-logo-text {
+    color: #000000;
+  }
+
 }
 
-.header-blocks {
-  display: flex;
-  align-items: center;
-}
 
 .logo {
   display: inline-block;
@@ -20,10 +26,6 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-}
-
-.header-logo-text {
-  color: #000000;
 }
 
 .main-nav {
@@ -104,16 +106,13 @@
     &:not(:last-child) {
     margin-right: 30px;
     }
-  
-  }
-
-  &__item {
 
     &:hover, &:focus {
       color: $link-color;
     }
   
   }
+
 }
 
 

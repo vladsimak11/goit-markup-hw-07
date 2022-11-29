@@ -40,19 +40,15 @@
   
     transition: color $transition-duration $transition-timing,
       background-color $transition-duration $transition-timing;
+
+    &:hover, &:focus {
+      color: $link-color;
+      border-color: $link-color;
+      }  
   }
 
   &__icon{
     fill: currentColor;
-  }
-
-  &__link {
-
-    &:hover, &:focus {
-    color: $link-color;
-    border-color: $link-color;
-    }
-    
   }
 
 }
