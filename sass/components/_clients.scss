@@ -1,0 +1,58 @@
+/* Clients */
+
+.clients {
+  padding-top: $gap-94;
+  padding-bottom: $gap-94;
+
+  &__title {
+    margin-bottom: $gap-50;
+  
+    color: $title-color;
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+
+    &:not(:last-child) {
+    margin-right: 30px;
+    }
+
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: #afb1b8;
+  
+    transition: color $transition-duration $transition-timing,
+      background-color $transition-duration $transition-timing;
+  }
+
+  &__icon{
+    fill: currentColor;
+  }
+
+  &__link {
+
+    &:hover, &:focus {
+    color: $link-color;
+    border-color: $link-color;
+    }
+    
+  }
+
+}
